@@ -9,7 +9,7 @@ I was working on a Starling mobile app project and was really in need of a great
 
 <h1>Usage for a Starling project:</h1>
 
-Thought to give an example for a Starling project, but you can use it in a basic AS3 project too or in your 3D projects, no matter what 3D engine you're using.
+Here I just thought to give an example for a Starling project, but still you can use the scroller in a basic AS3 project too or in your 3D projects, no matter what 3D engine you're using.
 
 <pre>
 import com.doitflash.consts.Orientation;
