@@ -5,11 +5,11 @@ A 100% abstract touch scroller to be used in 3D environment AS3 projects, Starli
 
 I was working on a Starling mobile app project and was really in need of a great and flexible Scroller, searched a lot but couldn't find the one that I was looking for, I have developed <a href="http://myappsnippet.com/touchscroll">AS3 TouchScroll</a> already and to be honest it was so flexible and OOP and got so much attention, so thought why not to create an abstract Scroller too to work on any situation and any AS3 project specially useful for 3D and Starling projects.
 
-<h1>Preview and info:</h1> http://myappsnippet.com/as3-starling-touch-scroll
+<h1>Preview and info:</h1> http://myappsnippet.com/as3-starling-touch-scroller
 
 <h1>Usage for a Starling project:</h1>
 
-Thought to give an example for a Starling project, but you can use it in a usual AS3 project too or in your 3D projects, no matter what 3D engine you're using.
+Thought to give an example for a Starling project, but you can use it in a basic AS3 project too or in your 3D projects, no matter what 3D engine you're using.
 
 <pre>
 import com.doitflash.consts.Orientation;
