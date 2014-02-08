@@ -322,8 +322,8 @@ package com.doitflash.starling.utils.scroller
 			this.dispatchEvent(new ScrollEvent(ScrollEvent.MOUSE_UP));
 			
 			
-			var time:Number = (getTimer() - _time2) / 1000;
-			if (time <= 0.020) time = 0.020;
+			var time:Number = (getTimer() - _time2) / 2000;
+			if (time <= 0.01) time = 0.01;
 			var yVelocity:Number = (_content.y - _y2) / time;
 			var xVelocity:Number = (_content.x - _x2) / time;
 			
@@ -635,6 +635,12 @@ package com.doitflash.starling.utils.scroller
 			{
 				this[prop] = a[prop];
 			}
+		}
+		
+		public function dispose():void {
+			TweenLite.killTweensOf(_content);
+			_content = null;
+			_propSaver = null;
 		}
 		
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
